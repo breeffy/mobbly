@@ -1,17 +1,17 @@
 {
-  "name": "react-native-sqlite-storage",
-  "version": "4.1.0",
-  "description": "SQLite3 bindings for React Native (Android & iOS)",
+  "name": "@breeffy/mobbly",
+  "version": "3.31.0",
+  "description": "Cross-platform mobile database powered by SQLite3",
   "main": "sqlite.js",
   "scripts": {
     "test": "echo \"Error: no test specified yet\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andpor/react-native-sqlite-storage.git"
+    "url": "https://github.com/breeffy/mobbly.git"
   },
   "keywords": [
-    "react-native-sqlite-storage",
+    "mobbly",
     "react-native-sqlite",
     "react-component",
     "reactnative",
@@ -20,16 +20,15 @@
     "sqlite3",
     "ios",
     "android",
-    "promise",
-    "cordova-sqlite-storage"
+    "promise"
   ],
-  "author": "Andrzej Porebski",
-  "license": "MIT",
+  "author": "Victor Malov",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/andpor/react-native-sqlite-storage/issues"
+    "url": "https://github.com/breeffy/mobbly/issues"
   },
-  "homepage": "https://github.com/andpor/react-native-sqlite-storage",
+  "homepage": "https://github.com/breeffy/mobbly",
   "peerDependencies": {
-    "react-native": ">=0.14.0"
+    "react-native": ">=0.61.5"
   }
 }
