@@ -182,7 +182,7 @@ code for these subcomponents is subject to the terms and
 conditions of the following licenses.
 
 This product bundles react-native-sqlite-storage 4.1.0 version,
-Copyright (c) 2015 andpor,
+Copyright (c) 2015-2016 Andrzej Porebski,
 which is available under a MIT license:
 """
 Permission is hereby granted, free of charge, to any person obtaining a copy
