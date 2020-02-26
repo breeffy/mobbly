@@ -32,8 +32,12 @@ android {
 
 repositories {
     mavenCentral()
+    google()
+    jcenter()
 }
 
 dependencies {
-    implementation 'com.facebook.react:react-native:+'
+    implementation "com.facebook.react:react-native:+"
+    implementation "io.requery:sqlite-android:3.31.0"
+    implementation "androidx.sqlite:sqlite:2.1.0"
 }
