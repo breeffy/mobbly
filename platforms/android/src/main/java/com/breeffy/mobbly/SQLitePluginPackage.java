@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2015, Andrzej Porebski
  */
-package org.pgsqlite;
+package com.breeffy.mobbly;
 
 import android.app.Activity;
 

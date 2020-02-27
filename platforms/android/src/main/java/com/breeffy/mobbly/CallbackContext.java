@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2015, Andrzej Porebski
  */
-package org.pgsqlite;
+package com.breeffy.mobbly;
 
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.WritableArray;

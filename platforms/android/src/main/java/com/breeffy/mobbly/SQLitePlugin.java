@@ -5,7 +5,7 @@
  * Copyright (c) 2010, IBM Corporation
  */
 
-package org.pgsqlite;
+package com.breeffy.mobbly;
 
 import android.annotation.SuppressLint;
 import android.database.Cursor;
