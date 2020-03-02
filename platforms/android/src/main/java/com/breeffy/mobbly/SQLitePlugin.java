@@ -790,15 +790,15 @@ public class SQLitePlugin extends ReactContextBaseJavaModule {
         Cursor cur = null;
         try {
             try {
-                String[] params = new String[0];
+                Object[] params = new Object[0];
                 if (queryParams != null) {
                     int size = queryParams.size();
-                    params = new String[size];
+                    params = new Object[size];
                     for (int j = 0; j < size; j++) {
                         if (queryParams.isNull(j)) {
                             params[j] = "";
                         } else {
-                            params[j] = SQLitePluginConverter.getString(queryParams, j, "");
+                            params[j] = SQLitePluginConverter.get(queryParams, j, "");
                         }
                     }
                 }
